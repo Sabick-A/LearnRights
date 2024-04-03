@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Design</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Solway:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page cover">
+        <nav>
+            <a href="#">About</a>
+            <a href="#" id="learnrights">LEARNRIGHTS</a>
+            <a href="#">Games</a>
+        </nav>
+        <main>
+            <div id="center-text">
+                <h1 id="center-title">Ready For Your Learning Adventure?</h1>
+                <img id="clouds" src="./cloud.webp" width="800" alt="cloud">
+            </div>
+            <button id="start-button" type="button">START</button>
+            <img class="cover-img" id="stars" src="./stars.png" width="100" alt="">
+            <img class="cover-img" id="a2b2" src="./a2b2.webp" width="100" alt="">
+            <img class="cover-img" id="pencil" src="./pencil.webp" width="100" alt="">
+            <img class="cover-img" id="paperplane" src="./paperplane.webp" width="100" alt="">
+            <img class="cover-img" id="umbrella" src="./umbrella.png" width="100" alt="">
+        </main>
+    </div>
+    <script type="text/javascript">
+        document.getElementById("start-button").onclick = function () {
+            location.href = "../second_page/index.html";
+        };
+    </script>
+</body>
+</html>
